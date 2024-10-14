@@ -27,11 +27,30 @@ img{
   width: 752;
 }
 
+main{
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about  p + p{
+  margin-top: 12px;
+}
+
 h1 {
   line-height: 140%;
   font-size: 40px;
+  margin-bottom: 4px;
 }
 
 h1, h2{
   color: #d68733;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 24px;
 }
